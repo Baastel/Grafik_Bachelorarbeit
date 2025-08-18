@@ -18,7 +18,7 @@
         </mxCell>
         <mxCell id="GiZz-HR4AVTah3v7BY4u-7" value="Test" parent="0" />
         <mxCell id="GiZz-HR4AVTah3v7BY4u-8" value="Test" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GiZz-HR4AVTah3v7BY4u-7">
-          <mxGeometry x="260" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
