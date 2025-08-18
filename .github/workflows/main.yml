@@ -1,0 +1,66 @@
+name: Export Draw.io → PDF
+on:
+  push:
+    paths:
+      - '**/*.drawio'
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run Python script to split Draw.io layers
+        run: |
+          FILE=$(find . -name '*.drawio' | head -n 1)
+          mkdir -p output_layers
+          python split.py --input_file "$FILE" --output_dir output_layers
+          pwd
+
+      - name: ls output_layers
+        run: | 
+          echo "output_layers:"
+          ls output_layers
+
+      - name: Export drawio → PDF
+        uses: rlespinasse/drawio-export-action@v2
+        with:
+          path: 'output_layers'
+          format: pdf
+          output: 'export'
+          remove-page-suffix: true
+          crop: true
+          embed-diagram: true
+          action-mode: 'all'
+      
+
+      - name: ls export
+        run: | 
+          echo "output_layers/export:"
+          ls output_layers/export
+          
+      - name: mv output_layers/export/*.pdf -> export/pdf
+        run: | 
+          git rm -r --cached export/pdf || true
+          rm -rf export/pdf
+          mkdir -p export/pdf
+          sudo mv output_layers/export/*.pdf export/pdf
+
+      - name: ls export/pdf
+        run: | 
+          ls export/pdf
+      
+      - name: Commit PDFs only
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'chore: PDF‑Export synchronisiert'
+          commit_user_name: github-actions
+          commit_user_email: github-actions@github.com
+          file_pattern: 'export/pdf'
