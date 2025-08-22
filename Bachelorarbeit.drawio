@@ -81,6 +81,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GiZz-HR4AVTah3v7BY4u-7" value="Test" parent="0" />
+        <mxCell id="EsfG2RAU68H6bWReub03-45" value="dies ist ein test" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="GiZz-HR4AVTah3v7BY4u-7" source="EsfG2RAU68H6bWReub03-43" target="EsfG2RAU68H6bWReub03-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsfG2RAU68H6bWReub03-43" value="tst" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GiZz-HR4AVTah3v7BY4u-7">
+          <mxGeometry x="900" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsfG2RAU68H6bWReub03-44" value="tesdgy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GiZz-HR4AVTah3v7BY4u-7">
+          <mxGeometry x="1210" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="WsCw_bzVPhmdkuJ8D12H-0" value="multi_layer_test_process" parent="0" />
         <mxCell id="WsCw_bzVPhmdkuJ8D12H-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" parent="WsCw_bzVPhmdkuJ8D12H-0" vertex="1">
           <mxGeometry x="340" y="560" width="210" height="200" as="geometry" />
