@@ -21,8 +21,7 @@ def export_layers(input_file, output_dir):
     if mx_graph_model is None:
         raise ValueError("No mxGraphModel found in the input file.")
     
-    # Find all layer objects (objects with style="layer")
-    # layers = mx_graph_model.findall('.//object[@style="layer"]')
+    # Find all layer objects (mxCells with parent="0")
     layers = mx_graph_model.findall('.//mxCell[@parent="0"]')
     if not layers:
         raise ValueError("No layers found in the input file.")
@@ -57,7 +56,7 @@ def export_layers(input_file, output_dir):
         
         # Copy the layer object itself
         new_layer_cell = ET.SubElement(new_mx_root, 'mxCell', attrib=layer.attrib)
-
+        
         # Find all elements that belong to this layer (those with parent=layer_id)
         layer_elements = mx_graph_model.findall(f'.//*[@parent="{layer_id}"]')
         
@@ -66,6 +65,16 @@ def export_layers(input_file, output_dir):
             new_element = ET.SubElement(new_mx_root, element.tag, attrib=element.attrib)
             for child in element:
                 new_element.append(child)
+        
+        # Find all edge labels (mxCells with style containing "edgeLabel" and parent in layer_elements)
+        edge_ids = [elem.get('id') for elem in layer_elements if elem.get('edge') == '1']
+        for edge_id in edge_ids:
+            edge_labels = mx_graph_model.findall(f'.//mxCell[@parent="{edge_id}"]')
+            for label in edge_labels:
+                if 'edgeLabel' in label.get('style', ''):
+                    new_label = ET.SubElement(new_mx_root, label.tag, attrib=label.attrib)
+                    for child in label:
+                        new_label.append(child)
         
         # Create a new tree and write to file
         new_tree = ET.ElementTree(new_root)
