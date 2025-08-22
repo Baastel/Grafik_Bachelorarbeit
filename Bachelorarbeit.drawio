@@ -150,31 +150,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EsfG2RAU68H6bWReub03-20" value="Test data requirements&#xa;(8.5)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EsfG2RAU68H6bWReub03-0">
-          <mxGeometry x="730" y="1455" width="180" height="50" as="geometry" />
+          <mxGeometry x="745" y="1455" width="155" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EsfG2RAU68H6bWReub03-22" value="Test env’t requirements&#xa;(8.6)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EsfG2RAU68H6bWReub03-0">
-          <mxGeometry x="730" y="1525" width="180" height="50" as="geometry" />
+          <mxGeometry x="745" y="1525" width="155" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EsfG2RAU68H6bWReub03-24" value="Test data readiness report&#xa;(8.7)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EsfG2RAU68H6bWReub03-0">
-          <mxGeometry x="950" y="1455" width="180" height="50" as="geometry" />
+          <mxGeometry x="930" y="1455" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EsfG2RAU68H6bWReub03-25" style="endArrow=none;endFill=0;" edge="1" parent="EsfG2RAU68H6bWReub03-0" source="EsfG2RAU68H6bWReub03-20" target="EsfG2RAU68H6bWReub03-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EsfG2RAU68H6bWReub03-26" value="Test env’t readiness report&#xa;(8.8)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EsfG2RAU68H6bWReub03-0">
-          <mxGeometry x="950" y="1525" width="180" height="50" as="geometry" />
+          <mxGeometry x="930" y="1525" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EsfG2RAU68H6bWReub03-27" style="endArrow=none;endFill=0;" edge="1" parent="EsfG2RAU68H6bWReub03-0" source="EsfG2RAU68H6bWReub03-22" target="EsfG2RAU68H6bWReub03-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EsfG2RAU68H6bWReub03-28" value="Actual results and test result&#xa;(8.9)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EsfG2RAU68H6bWReub03-0">
-          <mxGeometry x="330" y="1570" width="180" height="50" as="geometry" />
+          <mxGeometry x="380" y="1570" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EsfG2RAU68H6bWReub03-30" value="Test execution log&#xa;(8.10)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EsfG2RAU68H6bWReub03-0">
-          <mxGeometry x="530" y="1570" width="180" height="50" as="geometry" />
+          <mxGeometry x="580" y="1570" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EsfG2RAU68H6bWReub03-32" value="Test incident report&#xa;(8.11)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EsfG2RAU68H6bWReub03-0">
-          <mxGeometry x="330" y="1640" width="180" height="50" as="geometry" />
+          <mxGeometry x="380" y="1640" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EsfG2RAU68H6bWReub03-33" style="endArrow=none;endFill=0;" edge="1" parent="EsfG2RAU68H6bWReub03-0" source="EsfG2RAU68H6bWReub03-28" target="EsfG2RAU68H6bWReub03-32">
           <mxGeometry relative="1" as="geometry" />
