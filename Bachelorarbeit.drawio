@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.0">
   <diagram name="Seite-1" id="TvuDI8QwhE15kElaz38e">
-    <mxGraphModel dx="675" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="810" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="GiZz-HR4AVTah3v7BY4u-3" value="Organigramm" parent="0" />
@@ -82,16 +82,16 @@
         </mxCell>
         <mxCell id="GiZz-HR4AVTah3v7BY4u-7" value="Test" parent="0" />
         <mxCell id="WsCw_bzVPhmdkuJ8D12H-0" value="multi_layer_test_process" parent="0" />
-        <mxCell id="WsCw_bzVPhmdkuJ8D12H-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#6c8ebf;" vertex="1" parent="WsCw_bzVPhmdkuJ8D12H-0">
+        <mxCell id="WsCw_bzVPhmdkuJ8D12H-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" parent="WsCw_bzVPhmdkuJ8D12H-0" vertex="1">
           <mxGeometry x="340" y="560" width="210" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="WsCw_bzVPhmdkuJ8D12H-1" value="Organizational test process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WsCw_bzVPhmdkuJ8D12H-0">
+        <mxCell id="WsCw_bzVPhmdkuJ8D12H-1" value="Organizational test process" style="rounded=1;whiteSpace=wrap;html=1;" parent="WsCw_bzVPhmdkuJ8D12H-0" vertex="1">
           <mxGeometry x="360" y="580" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WsCw_bzVPhmdkuJ8D12H-2" value="Test management process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WsCw_bzVPhmdkuJ8D12H-0">
+        <mxCell id="WsCw_bzVPhmdkuJ8D12H-2" value="Test management process" style="rounded=1;whiteSpace=wrap;html=1;" parent="WsCw_bzVPhmdkuJ8D12H-0" vertex="1">
           <mxGeometry x="360" y="640" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WsCw_bzVPhmdkuJ8D12H-3" value="Dynamic test processes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WsCw_bzVPhmdkuJ8D12H-0">
+        <mxCell id="WsCw_bzVPhmdkuJ8D12H-3" value="Dynamic test processes" style="rounded=1;whiteSpace=wrap;html=1;" parent="WsCw_bzVPhmdkuJ8D12H-0" vertex="1">
           <mxGeometry x="360" y="700" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
