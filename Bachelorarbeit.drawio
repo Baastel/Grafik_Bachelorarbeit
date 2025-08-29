@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.1">
   <diagram name="Seite-1" id="TvuDI8QwhE15kElaz38e">
-    <mxGraphModel dx="445" dy="246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1071" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="GiZz-HR4AVTah3v7BY4u-3" value="Organigramm" parent="0" />
@@ -771,13 +771,13 @@
         <mxCell id="rrMiLJgQtjZr5tr0v7Pr-31" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="rrMiLJgQtjZr5tr0v7Pr-4" source="rrMiLJgQtjZr5tr0v7Pr-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="4260" as="sourcePoint" />
-            <mxPoint x="315" y="4180" as="targetPoint" />
+            <mxPoint x="315" y="4200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rrMiLJgQtjZr5tr0v7Pr-32" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rrMiLJgQtjZr5tr0v7Pr-4" source="rrMiLJgQtjZr5tr0v7Pr-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="540" y="4300" as="sourcePoint" />
-            <mxPoint x="1005" y="4180" as="targetPoint" />
+            <mxPoint x="1005" y="4200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rrMiLJgQtjZr5tr0v7Pr-33" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="rrMiLJgQtjZr5tr0v7Pr-4">
@@ -804,16 +804,16 @@
         </mxCell>
         <mxCell id="rrMiLJgQtjZr5tr0v7Pr-36" value="Link Offset Delay D&lt;sub&gt;LO&lt;/sub&gt;&amp;nbsp;= T&lt;sub&gt;REC(j)&amp;nbsp;&lt;/sub&gt;- T&lt;sub&gt;RTP(j)&lt;/sub&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="rrMiLJgQtjZr5tr0v7Pr-4">
           <mxGeometry y="10" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="316" y="4200" as="sourcePoint" />
-            <mxPoint x="1000" y="4200" as="targetPoint" />
+            <mxPoint x="316" y="4220" as="sourcePoint" />
+            <mxPoint x="1005" y="4220" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rrMiLJgQtjZr5tr0v7Pr-37" value="T&lt;sub&gt;RTP(j)&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rrMiLJgQtjZr5tr0v7Pr-4">
-          <mxGeometry x="290" y="4150" width="60" height="30" as="geometry" />
+          <mxGeometry x="290" y="4180" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rrMiLJgQtjZr5tr0v7Pr-38" value="T&lt;sub&gt;REC(j)&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rrMiLJgQtjZr5tr0v7Pr-4">
-          <mxGeometry x="980" y="4150" width="60" height="30" as="geometry" />
+          <mxGeometry x="980" y="4180" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rrMiLJgQtjZr5tr0v7Pr-39" value="TX Delay D&lt;sub&gt;TX&lt;/sub&gt;&amp;nbsp;= T&lt;sub&gt;TX(j)&lt;/sub&gt;&amp;nbsp;- T&lt;sub&gt;RTP(j)&lt;/sub&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="rrMiLJgQtjZr5tr0v7Pr-4">
           <mxGeometry x="-0.04" y="10" width="50" height="50" relative="1" as="geometry">
